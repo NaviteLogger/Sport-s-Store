@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AprbU7lIOJv9O+xVzmvDLkptWFJ5UPYjB/EJTZz97ej6rmFRtk6b/bPzzDypQUwypD0FcQPSE4lEQPr3mQH/EQ==",
+  "dgSpecHash": "QDQbjtjzzosfETN3xZN9VRpRDfOj2Z3VajztwKh373XCeYj7fmc78mofoxDZELkv/5fgK7p6+84ZzGFQ0YRYGw==",
   "success": true,
   "projectFilePath": "C:\\Users\\kacpr\\OneDrive\\Programowanie\\ASP.NET\\SportsStore\\SportsStore.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kacpr\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\kacpr\\.nuget\\packages\\moq\\4.18.4\\moq.4.18.4.nupkg.sha512",
+    "C:\\Users\\kacpr\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
