@@ -3558,23 +3558,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kacpr\\.nuget\\packages\\": {},
+    "C:\\Users\\NaviteLogger\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kacpr\\OneDrive\\Programowanie\\ASP.NET\\SportsStore\\SportsStore.csproj",
+      "projectUniqueName": "C:\\Users\\NaviteLogger\\OneDrive\\Programowanie\\ASP.NET\\SportsStore\\SportsStore.csproj",
       "projectName": "SportsStore",
-      "projectPath": "C:\\Users\\kacpr\\OneDrive\\Programowanie\\ASP.NET\\SportsStore\\SportsStore.csproj",
-      "packagesPath": "C:\\Users\\kacpr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kacpr\\OneDrive\\Programowanie\\ASP.NET\\SportsStore\\obj\\",
+      "projectPath": "C:\\Users\\NaviteLogger\\OneDrive\\Programowanie\\ASP.NET\\SportsStore\\SportsStore.csproj",
+      "packagesPath": "C:\\Users\\NaviteLogger\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NaviteLogger\\OneDrive\\Programowanie\\ASP.NET\\SportsStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kacpr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\NaviteLogger\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
