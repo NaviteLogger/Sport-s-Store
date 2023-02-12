@@ -7,8 +7,7 @@ namespace SportsStore.Controllers
         //public IActionResult Index() => View();
         public ViewResult Index()
         {
-            return View();
+            return View("Index"); //".." defines the name of the file in the Views folder
         }
-
     }
 }
