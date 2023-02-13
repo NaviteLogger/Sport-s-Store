@@ -1,9 +1,28 @@
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
+using SportsStore.Models;
+
 namespace SportsStore
 {
     public class Program
     {
-        public static void Main(string[] args)
+        private IConfiguration Configuration { get; set; }
+
+        public Program(IConfiguration configuration)
         {
+            Configuration = configuration;
+        }
+
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllersWithViews();
+            services.AddDbContext<StoreDbContext>(options => { options.UseSqlServer(Configuration["ConnectionString:SportsStoreConnection"]); });
+        }
+
+        public static void Main(string[] args)
+        { 
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
